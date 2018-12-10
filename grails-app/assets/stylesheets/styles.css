@@ -1,0 +1,57 @@
+
+.step{
+	border-top: 0;
+    margin: 0 0.1em;
+    padding: 0.25em 0.7em;
+    text-align: center;
+
+}
+.step:hover{
+    background-color: #4db6ac;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 0.1em;
+    padding: 0.25em 0.7em;
+    text-decoration: none;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+}
+
+.currentStep {
+    background-color: #4db6ac;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 0.1em;
+    padding: 0.25em 0.7em;
+    text-decoration: none;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+}
+.errors{
+    padding: 0.5em;
+    text-align: center;
+    color: red;
+    border-style: solid;
+    border-radius: 0.3em;
+    border-color: red;
+    border-width: thin;
+    background: transparent url(../images/skin/exclamation.png) 0.5em 50% no-repeat;
+    color: #cc0000;
+    -moz-box-shadow: 0 0 0.25em #ff8888;
+    -webkit-box-shadow: 0 0 0.25em #ff8888;
+    box-shadow: 0 0 0.25em #ff8888; 
+}
+.message{
+    text-align: center;
+    color: grey;
+    border-style: solid;
+    border-radius: 0.3em;
+    border-color: grey;
+    border-width: thin; 
+    -moz-box-shadow: 0 0 0.25em rgb(151, 156, 163);
+    -webkit-box-shadow: 0 0 0.25em  rgb(151, 156, 163);
+    background: transparent url(../images/skin/information.png) 0.5em 50% no-repeat;
+    box-shadow: 0 0 0.25em  rgb(151, 156, 163);
+}
